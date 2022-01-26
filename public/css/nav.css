@@ -1,0 +1,10 @@
+.nav-container{
+    text-align: center;
+}
+.navEl{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-top: 0%; 
+    margin-left: 5%;
+    padding-bottom: 2%;
+}

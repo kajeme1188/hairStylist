@@ -1,0 +1,29 @@
+{
+  "name": "hairStylist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website for a hairstylist, in which customers can see services and prices",
+  "scripts": {
+    "start": "node ./bin/www",
+    "start:dev": "NODE_ENV=development DEBUG=hairStylist:* nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kajeme1188/hairStylist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kajeme1188/hairStylist/issues"
+  },
+  "homepage": "https://github.com/kajeme1188/hairStylist#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.2",
+    "express-handlebars": "^6.0.2",
+    "http": "0.0.1-security",
+    "morgan": "^1.10.0"
+  }
+}

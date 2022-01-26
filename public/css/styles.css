@@ -1,0 +1,59 @@
+html, body{
+    background-color: whitesmoke;
+    margin: 0%;
+}
+
+
+.logo{
+    width: 5%;
+    height: 5%;
+}
+
+.header{
+    text-align: center;
+    font-family: "Brush Script MT";
+    font-size: 3rem;
+    color: azure;
+    background-color: black;
+    margin-top: 0%;
+    width: 100%;
+}
+
+.home-container{
+    /* height: 30%; */
+    /* width: 100%; */
+}
+
+.home-image{
+    height: 500px;
+    width: 100%;;
+}
+
+.subh{
+    margin-top: 4%;
+}
+
+.footer{
+    margin-top: 5%;
+    /* background-color: black; */
+}
+
+.social-footer{
+   
+   margin-top: 2%;
+    /* background-color: black; */
+}
+
+.foo{
+    margin-left:5%;
+}
+.foot{
+    width: 100%;
+    height: 15%;;
+    position: absolute;
+    top: 90%;
+    color:white;
+    border: solid 1px black;
+    background-color: black;
+    
+}
