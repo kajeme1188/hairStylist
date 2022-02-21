@@ -4,8 +4,25 @@
 }
 .navEl{
     text-decoration: none;
-    font-size: 2rem;
-    padding-top: 0%; 
+    font-size: 1.5rem;
+    padding-left: 4px;
     margin-left: 5%;
     padding-bottom: 2%;
+    border-left: black solid 1px;
+    opacity: 1.00;
+	-webkit-transition: 0.0025s all ease-in-out;
+	-moz-transition: 0.0025s all ease-in-out;
+	-o-transition: 0.0025s all ease-in-out;
+	transition: 0.0025s all ease-in-out;
+}
+.navEl:active{
+	opacity: 0.00;
+}
+
+.logoLink{
+    position: relative;
+    padding-top: 0%;    
+    list-style-type: none;
+    top: 5px;
+    
 }

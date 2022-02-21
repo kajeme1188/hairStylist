@@ -2,7 +2,7 @@ let app = require("../app");
 let debug = require("debug")("hairStylist:server");
 let http = require("http");
 //port
-let port = normalizePort(process.env.PORT || 3000);
+let port = normalizePort(process.env.PORT || 4000);
 app.set('port', port);
 
 let server = http.createServer(app);

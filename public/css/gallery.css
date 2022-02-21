@@ -1,0 +1,12 @@
+.gallery-container{
+    margin-bottom: 2%;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+
+.im{
+    text-align: center;
+    border: 1px solid black;
+    display: none;
+}
+
